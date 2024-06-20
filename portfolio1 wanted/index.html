@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {
+            width: 120px;
+            background: #000000;
+            position: fixed; /* Fixed position to stay visible while scrolling */
+            z-index: 1; /* Ensure sidebar stays on top of content */
+            height: 100%; /* Full height sidebar */
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+            padding-top: 20px; /* Space at the top */
+        }
+
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {
+            margin-left: 120px;
+            padding-left: 20px; /* Add padding inside the content area */
+        }
+
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0;
+            }
+            .w3-sidebar {
+                width: 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <img src="portfolio_imagportfolio1.png" style="width:100%">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p style="color: #00EEFF;">HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p style="color: #00EEFF;">ABOUT</p>
+        </a>
+        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p style="color: #00EEFF;">PHOTOS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p style="color: #00EEFF;">CONTACT</p>
+        </a>
+    </nav>
+
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div id="main">
+        <!-- Header/Home -->
+        <div class="w3-padding-large" id="home">
+            <header class="w3-container w3-padding-32 w3-center w3-black">
+                <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> <span style="color: #00EEFF;">Vivek</span>
+                    Panchal.</h1>
+                <p>UI/UX designer and Front-End developer.</p>
+                <img src="portfolio_imagportfolio1.png" alt="boy" class="w3-image" width="992" height="1108">
+            </header>
+        </div>
+
+
+        <!-- About Section -->
+        <div class="w3-padding-large" id="about">
+            <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+                <h2 class="w3-text-light-grey">Vivek Panchal</h2>
+                <hr style="width:200px" class="w3-opacity">
+                <p>My name is Vivek Panchal, and I am a student of Mahakal Institute of Technology (MITM) in Ujjain,
+                    from the 2020-2024 batch. Residing near the culturally rich city of Ujjain, I find inspiration in
+                    its heritage for my designs. Over the past six months, I have been working as a freelance UI/UX
+                    designer, successfully completing 4-5 paid projects. These projects have included website
+                    redesigns and mobile app interfaces, requiring collaboration with clients to understand their
+                    needs and deliver user-friendly designs. I am proficient in tools like Figma, Adobe XD, and Sketch.
+                    My academic experiences at MITM have provided a solid foundation in design principles, enhancing
+                    my creativity and technical skills. I am passionate about creating intuitive, aesthetically
+                    pleasing designs that enhance user experiences and look forward to continuing my journey in the
+                    field of UI/UX design.</p>
+                <h3 class="w3-padding-16" style="color: #00EEFF;">My Skills</h3>
+                <p class="w3-wide">UX Design</p>
+                <div class="w3-white">
+                    <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+                </div>
+                <p class="w3-wide">Web Design</p>
+                <div class="w3-white">
+                    <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+                </div>
+                <p class="w3-wide">Figma</p>
+                <div class="w3-white">
+                    <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+                </div><br>
+
+                <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">21+</span><br>
+                        Projects
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">15+</span><br>
+                        Projects Done
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">10+</span><br>
+                        Happy Clients
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">25+</span><br>
+                        Meetings
+                    </div>
+                </div>
+
+                <a href="Vivek panchal professional.pdf" download>
+                    <button class="w3-button w3-padding-large w3-section" style="background-color: #00EEFF; color: #000000;">
+                        <i class="fa fa-download"></i> Download Resume
+                    </button>
+                </a>
+
+                <!-- Grid for pricing tables -->
+                <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+                <style>
+                    .w3-button:hover {
+                        background-color: #00EEFF;
+                    }
+                </style>
+
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half w3-margin-bottom">
+                        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                            <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+                            <li class="w3-padding-16">Web Design</li>
+                            <li class="w3-padding-16">UX Designing</li>
+                            <li class="w3-padding-16">Mobile App Designing</li>
+                            <li class="w3-padding-16">Mail Support</li>
+                            <li class="w3-padding-16">
+                                <h2>₹ 20000</h2>
+                                <span class="w3-opacity">per Project</span>
+                            </li>
+                            <li class="w3-light-grey w3-padding-24">
+                                <button class="w3-button w3-white w3-padding-large">Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w3-half">
+                        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                            <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+                            <li class="w3-padding-16">Web Design</li>
+                            <li class="w3-padding-16">UX Designing</li>
+                            <li class="w3-padding-16">Mobile App designing</li>
+                            <li class="w3-padding-16">Endless Support</li>
+                            <li class="w3-padding-16">
+                                <h2>₹ 70000</h2>
+                                <span class="w3-opacity">per Project</span>
+                            </li>
+                            <li class="w3-light-grey w3-padding-24">
+                                <button class="w3-button w3-white w3-padding-large">Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Grid/Pricing tables -->
+
+                <!-- Testimonials -->
+                <h3 class="w3-padding-24 w3-text-white">About Me</h3>
+                <div class="w3-row-padding w3-padding-16" style="margin:0 -16px">
+                    <div class="w3-half">
+                        <img src="portfolio_imagportfolio1.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                            style="width:80px">
+                        <p><span class="w3-large w3-margin-right">Mahakal Institute of Technology and Management</span>(2020-24)</p>
+                        <p>B-Tech Computer Science Engineering & UX Designing.</p>
+                    </div>
+                    <div class="w3-half">
+                        <img src="portfolio_imagportfolio_2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                            style="width:80px">
+                        <p><span class="w3-large w3-margin-right">Vice President &</span> Disciplinary community Head</p>
+                        <p>I'm Vice president of College & Head of Disciplinary community in my college (2023-24)</p>
+                    </div>
+                </div>
+                <!-- End About Section -->
+            </div>
+
+            <!-- Portfolio Section -->
+            <div class="w3-padding-64 w3-content" id="photos">
+                <h2 class="w3-text-light-grey">My Projects</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <!-- Grid for photos -->
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half">
+                        <img src="nr27yyw5.bmp" style="width:100%">
+                        <img src="e52y9sow.bmp" style="width:100%">
+                        <img src="etebyt0b.bmp" style="width:100%">
+                    </div>
+
+                    <div class="w3-half">
+                        <img src="ewds5z0h.bmp" style="width:100%">
+                        <img src="u1ao2y86.bmp" style="width:100%">
+                        <img src="eoloocg5.bmp" style="width:100%">
+                    </div>
+                </div>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+
+            <!-- Contact Section -->
+            <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+                <h2 class="w3-text-light-grey">Contact Me</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <div class="w3-section">
+                    <p><i class="fa fa-map-marker fa-fw w3-text-oef w3-xxlarge w3-margin-right"></i> Ujjain, Madhya
+                        Pradesh</p>
+                    <p><i class="fa fa-phone fa-fw w3-text-oef w3-xxlarge w3-margin-right"></i> Phone: +91
+                        7440417901</p>
+                    <p><i class="fa fa-envelope fa-fw w3-text-oef w3-xxlarge w3-margin-right"></i> Email:
+                        lpanchal950@gmail.com</p>
+                </div>
+            </div>
+            <!-- End Contact Section -->
+        </div>
+    </div>
+
+    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+    <footer class="w3-container w3-padding-32 w3-dark-grey w3-center">
+        <div class="w3-container w3-text-light-grey">
+            <p>@Lucky_Panchal<a href="https://www.w3schools.com/w3css/default.asp" target="_blank"><br>9981277013</a></p>
+        </div>
+    </footer>
+    <!-- END PAGE CONTENT -->
+</body>
+
+</html>
